@@ -3,6 +3,7 @@ import React from "react";
 import "./global.css";
 import "./App.css";
 import "./Sidebar.css";
+import "./Main.css";
 
 function App() {
   return (
@@ -32,7 +33,74 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main></main>
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/2370740?v=4"
+                alt="Vinícius Velasco"
+              />
+              <div className="user-info">
+                <strong>Vinícius Velasco</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Mostrar a bio</p>
+            <a href="https://github.com/viniciusvelasco">
+              Acessar Perfil no Github
+            </a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/2370740?v=4"
+                alt="Vinícius Velasco"
+              />
+              <div className="user-info">
+                <strong>Vinícius Velasco</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Mostrar a bio</p>
+            <a href="https://github.com/viniciusvelasco">
+              Acessar Perfil no Github
+            </a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/2370740?v=4"
+                alt="Vinícius Velasco"
+              />
+              <div className="user-info">
+                <strong>Vinícius Velasco</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Mostrar a bio</p>
+            <a href="https://github.com/viniciusvelasco">
+              Acessar Perfil no Github
+            </a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img
+                src="https://avatars0.githubusercontent.com/u/2370740?v=4"
+                alt="Vinícius Velasco"
+              />
+              <div className="user-info">
+                <strong>Vinícius Velasco</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Mostrar a bio</p>
+            <a href="https://github.com/viniciusvelasco">
+              Acessar Perfil no Github
+            </a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
