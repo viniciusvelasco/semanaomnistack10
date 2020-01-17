@@ -7,10 +7,6 @@
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
-  "engines": {
-    "node": "12.10.0",
-    "yarn": "1.19.1"
-  },
   "dependencies": {
     "axios": "^0.19.1",
     "cors": "^2.8.5",
