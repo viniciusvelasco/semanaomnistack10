@@ -1,1 +1,1 @@
-mestre-week10-backend: node backend/index.js
+node start
